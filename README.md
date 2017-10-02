@@ -2,8 +2,8 @@
 We have implemented an RNN which we have trained by using backpropagation through time. Then we use this RNN to generate new sentences.
 
 One exciting property of RNNs is that they can be used as sentence generators to statistically
-generate new (unseen) sentences. Since the model effectively has learned a probability distribution over words Wn+1 for a given sequence [w1, ··· wn], we can generate new sequences. We can then apply the RNN forward and sample a new word wt+1 from the distribution
-yˆ(t) at each time step. Then we feed this word in as input at the next step, and repeat until the model emits an end token.
+generate new (unseen) sentences. Since the model effectively has learned a probability distribution over words Wn+1 for a given sequence [W1, ··· Wn], we can generate new sequences. We can then apply the RNN forward and sample a new word Wt+1 from the distribution
+Y(t) at each time step. Then we feed this word in as input at the next step, and repeat until the model emits an end token.
 
 
 ## References
